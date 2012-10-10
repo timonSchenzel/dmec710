@@ -1,5 +1,5 @@
 class Dossier < ActiveRecord::Base
   # attr_accessible :title, :body
-  has_many :DossierItems
+  has_many :DossierItem
   belongs_to :Client
 end
